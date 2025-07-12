@@ -117,19 +117,32 @@ Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
 Outputs:
 
 dynamodb_table_name = "terraform-locks"
+
 ecr_repository_url = "655307635386.dkr.ecr.us-west-2.amazonaws.com/lesson-5-ecr"
 nat_gateway_id = "nat-0c1804b930b367893"
+
 private_subnets = [
+
   "subnet-064ef23d27a95a88a",
+  
   "subnet-038937fc67e74649a",
+  
   "subnet-0886860876cca9198",
+  
 ]
+
 public_subnets = [
+
   "subnet-087d6843a55b489df",
+  
   "subnet-094616a2bddad1da1",
+  
   "subnet-0d2e53cc6e47bd834",
+  
 ]
+
 s3_bucket_name = "terraform-state-bucket-alex-20250712"
+
 vpc_id = "vpc-0e244c15e8f269faf"
 
 ---
